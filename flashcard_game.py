@@ -1,6 +1,7 @@
 import time
 import json
 from flashcard_user import User
+
 class Game:
     def __init__(self, obj) -> None:
         self.object = obj
