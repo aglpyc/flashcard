@@ -30,7 +30,7 @@ class User:
         data["level"] = lastlevel
         self.level = lastlevel
         h,m,s = data["totalTime"].split(":")
-        totalseconds = int(h)*3600+int(m)*60+int(s)+passedtime
+        totalseconds = int(h)*3600+int(m)*60+int(s) + int(passedtime)
         self.converted_time = str(datetime.timedelta(seconds=totalseconds))
         data["totalTime"] = self.converted_time
         self.totalTime = self.converted_time

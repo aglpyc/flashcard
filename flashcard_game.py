@@ -3,7 +3,7 @@ import json
 from flashcard_user import User
 
 class Game:
-    def __init__(self, obj) -> None:
+    def __init__(self, obj):
         self.object = obj
         self.true_number = 0
         self.attempts_number = 0
@@ -34,7 +34,7 @@ class Game:
         if self.true_number == 20:
             self.object.level += 1
             self.totalTime()
-            self.object.registerUserStat(self.object, self.total_time)
+            self.object.registerUserStat(self.object.level, self.total_time)
             self.starting_time()
             self.word_list = self.words()
             self.true_number = 0
