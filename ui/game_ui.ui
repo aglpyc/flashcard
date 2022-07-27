@@ -35,6 +35,11 @@
       <height>600</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>4</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(184, 217, 138);</string>
     </property>
@@ -158,15 +163,24 @@ height:20px;
       <height>100</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(135, 185, 225);
 border-radius:50px;
 border-style:solid;
 border-width:3px;
+color: rgb(170, 0, 0);
 border-color: rgb(207, 104, 0);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="back_button">
@@ -294,14 +308,23 @@ QPushButton::pressed{
       <height>50</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">border-style:solid;
 border-width:3px;
 border-radius:25px;
-border-color: rgb(197, 103, 40);</string>
+border-color: rgb(197, 103, 40);
+color: rgb(170, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="try_label">
@@ -313,14 +336,23 @@ border-color: rgb(197, 103, 40);</string>
       <height>50</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">border-style:solid;
 border-width:3px;
 border-radius:25px;
-border-color: rgb(197, 103, 40);</string>
+border-color: rgb(197, 103, 40);
+color: rgb(170, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -353,12 +385,21 @@ border-color: rgb(197, 103, 40);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(135, 185, 225);
-border-radius:10px;</string>
+border-radius:10px;
+color: rgb(170, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
