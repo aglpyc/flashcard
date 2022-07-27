@@ -52,7 +52,7 @@ color:rgb(170, 0, 0);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">image: url(:/logo/flashcard/logo/logo2.jpeg);</string>
+    <string notr="true">image: url(:/logo/logo2.jpeg);</string>
    </property>
    <property name="text">
     <string/>
@@ -89,7 +89,7 @@ QPushButton::pressed{
   </widget>
  </widget>
  <resources>
-  <include location="../../pycoders/hw/Class6-Python-Module-Week9-PROJECT/FLASHCARDS/ui/logo.qrc"/>
+  <include location="../logo/logo.qrc"/>
  </resources>
  <connections/>
 </ui>
